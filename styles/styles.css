@@ -26,6 +26,20 @@ html {
   scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: white;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 3rem;
+  background-color: rgb(0, 0, 0);
+}
+
 body {
   background: var(--main-color);
 }
@@ -152,7 +166,7 @@ section {
 /* products start */
 
 .menu {
-  background: url(../images/pexels-karolina-grabowska-5713317.jpg);
+  background: url(../images/Karolina-Grabowska-Heels2.webp);
   background-size: cover;
   background-position: center;
 }
@@ -169,24 +183,40 @@ section {
 }
 
 .menu .btn:hover {
-  color: red;
+  color: white;
+  background-color: red;
+  opacity: 0.9;
 }
 
 .menu .box-container .box {
   padding: 3rem;
-  background-color: #0e0e0e;
+  background: url(../images/Cart-BG.png);
+  background-size: cover;
+  background-position: center;
   border-radius: 3rem;
-  background-color: #0e0e0e;
   min-height: 60rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  opacity: 0.98;
+  /* remember this!!!! */
+
+}
+
+.menu .box-container .box:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 .menu .box-container .box img {
   width: 100%;
   object-fit: cover;
+}
+
+.menu img:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
 
 .menu .box-container .box .menu-category {
