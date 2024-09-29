@@ -26,8 +26,111 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: var(--main-color);
+}
 
+section {
+  padding: 3.5rem 7%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 2rem 3.75rem;
+  border-radius: 30rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: var(--black-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: rgb(255, 0, 0);
+}
 
 .logo img {
   height: 7rem;
 }
+
+/*! header start */
+.header img {
+  height: 10rem;
+}
+
+.header img:hover {
+  transform: scale(1.1);
+  transform: rotate(15deg);
+  filter: brightness(1.2);
+  filter: hue-rotate(20deg);
+}
+
+.header {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 2rem 7%;
+  border-radius: 30rem;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .navbar a {
+  margin: 0 1rem;
+  font-size: 1.6rem;
+  color: var(--black-color);
+  border-bottom: 0.1rem solid transparent;
+  font-weight: bold;
+
+}
+
+.header .navbar .active,
+.header .navbar a:hover {
+  border-color: darkred;
+  padding-bottom: 0.3rem;
+}
+
+.header .buttons button {
+  cursor: pointer;
+  font-size: 2.5rem;
+  background-color: transparent;
+  margin-left: 2rem;
+}
+
+/*! header end */
+
+/*! home start */
+.home {
+  min-height: 100vh;
+  background: url(../images/Karolina-Grabowska-RedHeels-Home.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -14.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.home .content {
+  max-width: 60rem;
+}
+
+.home .content h3 {
+  font-size: 6rem;
+  color: #000000;
+}
+
+.home .content p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #000000;
+  text-transform: none;
+}
+
+
+/*! home end */
