@@ -415,11 +415,60 @@ section {
 .about .row .content p {
   font-size: 1.8rem;
   font-weight: bold;
+  /* text looks a bit fucked up here due to background picture so i added some text shadow */
   color: #fff3e0;
-  /* Açık krem rengi */
   text-shadow: 0.2rem 0rem 0.5rem rgb(0, 0, 0, 1);
-  /* Hafif bir gölge ekledik */
   padding: 1rem 0;
   line-height: 1.8rem;
   text-transform: none;
+}
+
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.review .box-container .box {
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  border-radius: 3rem;
+}
+
+.review .box-container .box .user {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.reivew .box-container .box img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.review .box-container .box p {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 2rem 0;
+}
+
+.review .box-container .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: red;
+}
+
+.review .box-container .box .stars i {
+  color: gold;
+  font-size: 1.5rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
 }
