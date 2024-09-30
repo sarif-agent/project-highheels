@@ -48,10 +48,6 @@ section {
   padding: 3.5rem 7%;
 }
 
-img {
-  pointer-events: none;
-}
-
 .btn {
   margin-top: 1rem;
   display: inline-block;
