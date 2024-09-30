@@ -1,5 +1,5 @@
 :root {
-  --main-color: #e84242;
+  --main-color: #fff;
   --black-color: #0e0e0e;
   --border: 0.1rem solid rgba(255, 255, 255, 0.4);
 }
@@ -360,6 +360,7 @@ section {
   overflow: hidden;
   border: 5px solid #fff3e0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
 .about .row img {
@@ -367,12 +368,14 @@ section {
   height: 100%;
   object-fit: cover;
   opacity: 0.9;
+  overflow: hidden;
 
 }
 
 .about .row img:hover {
   opacity: 1;
-  transition: opacity 0.3s ease;
+
+  transform: scale(1.2);
 }
 
 .about .row .content {

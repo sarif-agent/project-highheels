@@ -20,7 +20,11 @@
 <body>
 
   <script src="script.js">
-
+    document.addEventListener("dragstart", function (event) {
+      if (event.target.tagName === "img") {
+        event.preventDefault();
+      }
+    });
   </script>
 
   <header class="header">

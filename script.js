@@ -7,8 +7,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("dragstart", function (event) {
-  if (event.target.tagName === "img") {
-    event.preventDefault();
-  }
-});
