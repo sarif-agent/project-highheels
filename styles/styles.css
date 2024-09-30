@@ -175,6 +175,13 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.menu .box-container::after {
+  content: '';
+  grid-column: span 2;
+  /* Son öğeyi ortalamak için span kullan */
 }
 
 .menu .btn {
@@ -199,7 +206,7 @@ section {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  opacity: 0.98;
+  opacity: 0.97;
   /* remember this!!!! */
 
 }
@@ -212,6 +219,7 @@ section {
 .menu .box-container .box img {
   width: 100%;
   object-fit: cover;
+  border-radius: 1rem;
 }
 
 .menu img:hover {
@@ -240,4 +248,93 @@ section {
   font-size: 1.5rem;
   text-decoration: line-through;
   font-weight: 300;
+}
+
+.products {
+  background: url(../images/pexels-jose-martin-segura-benites-1422456152-27008327.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.products a {
+  color: black;
+  text-decoration: none;
+}
+
+.products .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.products .box-container::after {
+  content: '';
+  grid-column: span 2;
+  /* Son öğeyi ortalamak için span kullan */
+}
+
+.products .box-container .box {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  border-radius: 3rem;
+  height: 60rem;
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.products .box-container .box .box-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  z-index: 10;
+}
+
+.products .box-container .box .box-head .title {
+  font-size: 1.4rem;
+  color: red;
+  font-weight: bold;
+}
+
+.products .box-container .box .box-head .name {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.products .box-container .box img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.products .box-container .box-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.products .box-container .box-bottom .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products .box-container .box-bottom .info .price {
+  padding: 0.5rem 0;
+  font-size: 1.7rem;
+  font-style: italic;
+  text-transform: none;
+}
+
+.products img:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
