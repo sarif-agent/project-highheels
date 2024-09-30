@@ -423,6 +423,21 @@ section {
   text-transform: none;
 }
 
+.review {
+  background: url(../images/Cart-BG.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.review .heading {
+  color: white;
+  border-bottom: 0.1rem solid #ffffff;
+}
+
+.review .heading span {
+  color: white;
+}
+
 .review .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
