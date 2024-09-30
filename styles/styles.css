@@ -357,14 +357,15 @@ section {
 
 .about .row {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   column-gap: 2rem;
 }
 
 .about .row .image {
   flex: 1 1 45rem;
-  max-width: 400px;
-  max-height: 500px;
+  max-width: 50rem;
+  max-height: 60rem;
   overflow: hidden;
   border: 5px solid #fff3e0;
   /* Krem rengi bir çerçeve ekledik */
@@ -402,7 +403,7 @@ section {
 }
 
 .about .heading span {
-  color: red;
+  color: #d0152f;
 }
 
 .about .row .content h3 {
@@ -486,4 +487,9 @@ section {
   font-size: 1.5rem;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
+}
+
+.review .box-container .box .quote:hover {
+  transform: scale(1.1);
+  transform: rotate(15deg);
 }
