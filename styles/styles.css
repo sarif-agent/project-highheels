@@ -697,22 +697,17 @@ section {
 
 .contact-btn {
   background-color: #fff;
-  /* Varsayılan arka plan */
   color: red;
-  /* Varsayılan yazı rengi */
 }
 
-/* Tıklama sonrası buton görünümü */
+
 .contact-btn.success {
   background-color: #e0ffe0;
-  /* Açık yeşil arka plan */
   color: #4CAF50;
-  /* Yazı rengi açık yeşil */
   padding-left: 2.5rem;
-  /* Sol boşluk ekleyerek tık işaretine yer aç */
   background-repeat: no-repeat;
   background-position: left 1rem center;
-  /* Tik işareti sol kısma yerleşir */
+
 }
 
 .blog {
