@@ -253,21 +253,15 @@ section {
   justify-content: center;
   align-items: center;
   padding: 5rem 0;
-  /* Yukarıdan ve aşağıdan boşluk bırakmak için */
 }
 
 .video-container {
   width: 80%;
-  /* Ekranın %80'ini kaplayacak */
   max-width: 1200px;
-  /* Maksimum genişliği */
   position: relative;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
-  /* Box shadow */
   border-radius: 20px;
-  /* Hafif yuvarlatılmış köşeler */
   overflow: hidden;
-  /* Taşan video köşeleri gizlenir */
 }
 
 .my-video {
@@ -275,10 +269,7 @@ section {
   height: auto;
   display: block;
   object-fit: cover;
-  /* Videonun container'a tam oturmasını sağlar */
 }
-
-
 
 .menu {
   background: url(../images/Karolina-Grabowska-Heels2.webp);
@@ -707,7 +698,6 @@ section {
   padding-left: 2.5rem;
   background-repeat: no-repeat;
   background-position: left 1rem center;
-
 }
 
 .blog {
@@ -801,6 +791,70 @@ footer a {
 #menu-btn {
   display: none;
 }
+
+
+/* external about page video */
+
+.about-external {
+  background: url(../images/aboutus.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.about-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  padding: 3rem 0;
+}
+
+.about-row .about-video-container {
+  flex: 1 1 45rem;
+  max-width: 50rem;
+  max-height: 60rem;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-row .my-video2 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.about-row .content {
+  flex: 1 1 45rem;
+  padding-left: 2rem;
+}
+
+.about-row .content h3 {
+  font-size: 3rem;
+  color: red;
+  text-align: center;
+  text-shadow: 0.2rem 0rem 0.3rem rgb(0, 0, 0, 1);
+}
+
+.about-row .content p {
+  text-transform: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0.2rem 0rem 0.5rem rgb(0, 0, 0, 1);
+  line-height: 1.8;
+}
+
+
+
+
+
+
+
+/* external about page video */
 
 
 /* responsive denemeler */
