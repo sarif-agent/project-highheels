@@ -245,6 +245,41 @@ section {
   text-transform: none;
 }
 
+.video-section {
+  background: url(../images/Cart-BG.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  /* Yukarıdan ve aşağıdan boşluk bırakmak için */
+}
+
+.video-container {
+  width: 80%;
+  /* Ekranın %80'ini kaplayacak */
+  max-width: 1200px;
+  /* Maksimum genişliği */
+  position: relative;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  /* Box shadow */
+  border-radius: 20px;
+  /* Hafif yuvarlatılmış köşeler */
+  overflow: hidden;
+  /* Taşan video köşeleri gizlenir */
+}
+
+.my-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  /* Videonun container'a tam oturmasını sağlar */
+}
+
+
+
 .menu {
   background: url(../images/Karolina-Grabowska-Heels2.webp);
   background-size: cover;
@@ -799,13 +834,6 @@ footer a {
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 2rem;
-  }
-
-  .header .cart-items-container {
-    width: 100%;
-    /* Mobilde tam genişlik kullan */
-    right: -100%;
-    /* Başlangıçta gizle */
   }
 }
 
