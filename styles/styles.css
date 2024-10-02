@@ -826,10 +826,15 @@ footer a {
   object-fit: cover;
 }
 
+
 .about-row .content {
   flex: 1 1 45rem;
-  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .about-row .content h3 {
   font-size: 3rem;
