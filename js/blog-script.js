@@ -18,3 +18,11 @@ posts.forEach(post => {
     });
   });
 });
+
+if (location.hash) {
+  const foundBlog = document.getElementById(location.hash.substr(1))
+
+  if (foundBlog) {
+    foundBlog.classList.add('active')
+  }
+}
