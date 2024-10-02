@@ -774,11 +774,13 @@ footer {
 footer p {
   font-size: 2rem;
   text-transform: none;
+  font-weight: 600;
 }
 
 footer a {
   color: red;
   cursor: pointer;
+  font-weight: 700;
 }
 
 #menu-btn {
