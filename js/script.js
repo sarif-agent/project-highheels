@@ -118,6 +118,8 @@ menuBtn.addEventListener("click", function () {
   });
 });
 
+
+// thanks to aykut saki for this code block xd //
 document.querySelector('.contact-btn').addEventListener('click', function (e) {
   e.preventDefault();
   const button = e.target;
