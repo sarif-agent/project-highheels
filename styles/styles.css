@@ -587,7 +587,7 @@ section {
     color: #fff;
   }
 
-  & .quote {
+  & #quote {
     transform: scale(1.1);
     transform: rotate(15deg);
   }
