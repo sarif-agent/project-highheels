@@ -146,6 +146,10 @@ section {
 
 }
 
+.header .navbar #yellowgirl {
+  color: yellow;
+}
+
 .header .navbar .active,
 .header .navbar a:hover {
   border-color: darkred;
