@@ -800,6 +800,13 @@ footer a {
     padding: 0.5rem;
     font-size: 2rem;
   }
+
+  .header .cart-items-container {
+    width: 100%;
+    /* Mobilde tam genişlik kullan */
+    right: -100%;
+    /* Başlangıçta gizle */
+  }
 }
 
 @media (max-width: 576px) {
