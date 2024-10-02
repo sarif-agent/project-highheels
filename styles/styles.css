@@ -104,7 +104,7 @@ section {
 
 .header .search-form input {
   width: 100%;
-
+  margin-left: 2rem;
 }
 
 .logo img {
@@ -567,7 +567,7 @@ section {
   width: 100%;
   height: 100%;
   background-color: #50139f;
-  border-radius: 15px;
+  border-radius: 3rem;
   transition: all 0.3s ease;
   z-index: -1;
   transform: scale(0);
