@@ -116,7 +116,7 @@ section {
   height: 10rem;
 }
 
-.header img:hover {
+.header #myLogo:hover {
   transform: scale(1.1);
   transform: rotate(15deg);
   filter: brightness(1.2);
@@ -255,12 +255,6 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
-  justify-content: space-between;
-}
-
-.menu .box-container::after {
-  content: '';
-  grid-column: span 2;
 }
 
 .menu .btn {
@@ -353,13 +347,6 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
-  justify-content: space-between;
-}
-
-.products .box-container::after {
-  content: '';
-  grid-column: span 2;
-  /* Son öğeyi ortalamak için span kullan */
 }
 
 .products .box-container .box {
