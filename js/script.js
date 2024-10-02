@@ -117,3 +117,12 @@ menuBtn.addEventListener("click", function () {
     }
   });
 });
+
+document.querySelector('.contact-btn').addEventListener('click', function (e) {
+  e.preventDefault(); // Sayfa yenilemesini durdur
+  const button = e.target;
+
+  // Buton yazısını ve stilini değiştir
+  button.value = "Thanks for Contacting Us ✅";
+  button.classList.add('success'); // success class'ını ekleyerek stil değişikliği uygula
+});
