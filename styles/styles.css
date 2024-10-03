@@ -80,9 +80,9 @@ section {
 .header .search-form {
   position: absolute;
   top: 115%;
-  right: 3%;
+  right: 2%;
   background-color: #fff;
-  width: 50rem;
+  width: 30rem;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -144,10 +144,6 @@ section {
   border-bottom: 0.1rem solid transparent;
   font-weight: bold;
 
-}
-
-.header .navbar #yellowgirl {
-  color: yellow;
 }
 
 .header .navbar .active,
